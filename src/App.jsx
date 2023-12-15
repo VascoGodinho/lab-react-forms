@@ -39,22 +39,42 @@ function App() {
           <div>
             <label>
               Full Name
-              <input name="fullName" type="text" placeholder="Full Name" />
+              <input
+                name="fullName"
+                type="text"
+                placeholder="Full Name"
+                onChange={handleFormSubmit}
+              />
             </label>
 
             <label>
               Profile Image
-              <input name="image" type="url" placeholder="Profile Image" />
+              <input
+                name="image"
+                type="url"
+                placeholder="Profile Image"
+                onChange={handleFormSubmit}
+              />
             </label>
 
             <label>
               Phone
-              <input name="phone" type="tel" placeholder="Phone" />
+              <input
+                name="phone"
+                type="tel"
+                placeholder="Phone"
+                onChange={handleFormSubmit}
+              />
             </label>
 
             <label>
               Email
-              <input name="email" type="email" placeholder="Email" />
+              <input
+                name="email"
+                type="email"
+                placeholder="Email"
+                onChange={handleFormSubmit}
+              />
             </label>
           </div>
 
